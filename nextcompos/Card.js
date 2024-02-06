@@ -204,7 +204,7 @@ const MyCard = () => {
                     {item.heading}
                     <Progress bg={"transparent"} colorScheme='purple' size='xs' value={70 } />
 
-                    
+                    {/* <? */}
                     </Heading>
 
                     {item.badgeColor && (

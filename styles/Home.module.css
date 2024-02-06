@@ -94,3 +94,28 @@
         font-size: 12px;
         color: grey;
       }
+      .scrolling{
+        overflow: auto;
+
+
+      }
+
+      .scrolling::-webkit-scrollbar{
+        width: 5px;
+
+      }
+      .scrolling::-webkit-scrollbar-thumb {
+        background: #b840ca;
+        border-radius: 15%;
+        /* transition: background 0.2s ease-in-out ;  */
+      }
+      .scrolling::-webkit-scrollbar-track{
+        background: rgb(213, 199, 228);
+        border-radius: 15%;
+
+
+      }
+      .scrolling::-webkit-scrollbar-thumb:hover {
+        background: #c819ce;
+
+      }
